@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    
+    <div class="box">
+        <div class="container">
+            <h1 class="title"> <B>Sum of Two Numbers</B></h1>
+            <input type="text" class="input-box" id="num1" onkeyup="calsum()" />
+            <input type="text" class="input-box" id="num2" onkeyup="calsum()" />
+            <p class="result" id="result"></p>
+
+            <div>
+                <button type="button" class="btn" onclick="calsum()">Calculate</button>
+                <button type="button" class="btn" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
