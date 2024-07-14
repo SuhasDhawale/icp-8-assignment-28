@@ -22,6 +22,34 @@
             </div>
         </div>
     </div>
+    <script>
+        function calsum()
+        {
+            const num1Element = document.getElementById("num1")
+            const num2Element = document.getElementById("num2")
+
+            console.log(num1Element.value)
+            console.log(num2Element.value)
+
+            const sum = parseInt(num1Element.value || 0) + parseInt(num2Element.value || 0)
+
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = `Sum: ${sum}`
+        }
+
+        function reset(){
+            const num1Element = document.getElementById("num1")
+            num1Element.value = ""
+
+            const num2Element = document.getElementById("num2")
+            num2Element.value = ""
+
+            const resultElement = document.getElementById("result")
+            resultElement.innerText = ""
+
+        }
+    </script>
 </body>
 
 </html>
