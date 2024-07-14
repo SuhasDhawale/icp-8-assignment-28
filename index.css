@@ -1,3 +1,43 @@
-body{
+.box{
+    background-color: rgb(205, 221, 246);
+    width: 600px;
+    height: 340px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(134, 167, 216);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(134, 167, 216);
+}
+
+.btn {
+    width: 170px;
+    height: 37px;
+    margin: 30px;
+    border: 1px solid rgb(134, 167, 216);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(134, 167, 216);
+}
+
+.result{
     margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 25px;
 }
